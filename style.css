@@ -1,0 +1,97 @@
+.home{
+    background-image: url(./placeholder-images/bg-coffee-shop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-width: 1px;
+    background-position-x: center;
+    flex-direction: column;
+    display: flex;
+}
+body{
+    margin: 0;
+}
+.home  .content-wrapper
+{
+    background: rgba(224, 171, 121, 0.105);  
+    border-width: 1px;
+    border-color:coral;
+    border-style: dashed; 
+    flex: 1 0 auto;
+}
+a{
+    color:crimson
+}
+a:hover{
+    color:blue;
+}
+.footer{
+    margin-top: 100px;
+    background:black;
+    border-width: 1px;
+    border-color:black;
+    border-style: dashed; 
+    justify-content: space-between;
+    display: flex;
+align-items: center;
+padding: 10px;
+
+}
+footer a:hover{
+    color:darkgoldenrod;
+}
+.footer p{
+    color:rgba(255, 255, 255, 0.79);
+}
+.socials img:hover{
+    opacity: 0.0;
+}
+
+.socials{
+    list-style-type: none;
+    padding: 0;
+    
+}
+.socials li{
+       display: inline-block;
+       margin-right: 30px;
+}
+html,body{
+    width: 100%;
+}
+.content-wrapper{
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 50px;
+}
+.resume header::before{
+    background:url(./placeholder-images/bg-home-office-studio.jpg)center;
+    background-size: cover;
+    display: block;
+    height: 375px;
+    content: "";
+}
+.project-item {
+    display: flow-root;
+    margin: 30px 0;
+}
+.project-item img{
+    float: left;
+    width:150px;
+    margin-right: 0%;
+}
+.resume-section{
+    margin-bottom: 50px;
+}
+.resume-section h2{
+    border-bottom: 2px dashed;
+}
+
+.download-Link{
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    color: chartreuse;
+}
+.container{
+    padding: 30px;
+}
